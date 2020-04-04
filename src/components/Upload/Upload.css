@@ -1,0 +1,52 @@
+.upload {
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+  width: 100%;
+}
+.upload .name {
+  font-size: 4em;
+  font-weight: 200;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.upload .logo {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.upload .upload-button {
+  margin-top: 50px;
+  padding: 1em 2em;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  background-color: #8b39b4;
+  max-width: 240px;
+}
+.upload .upload-button:hover {
+  background-color: #7c33a0;
+  box-shadow: "0 0 0 0.2rem rgba(0,123,255,.5)";
+}
+.upload .upload-description {
+  font-size: 30px;
+  font-weight: 300;
+}
+.upload .navigation {
+  margin-top: 50px;
+}
+.upload .next {
+  margin-left: 10px;
+}
+.upload .back {
+  margin-right: 10px;
+}
+.upload-in {
+  animation: in 600ms;
+  animation-fill-mode: forwards;
+}
+.upload-out {
+  animation: out 600ms;
+  animation-fill-mode: forwards;
+}

@@ -1,0 +1,73 @@
+.edit {
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+
+    .name {
+        font-size: 4em;
+        font-weight: 200;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .duration {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+
+        .duration-name {
+            font-size: 20px;
+            font-weight: 300;
+            margin-bottom: 10px;
+            // float: left;
+        }
+    }
+
+    .resolution {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+
+        .resolution-name {
+            font-size: 20px;
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+
+        .resolution-select {
+            margin-top: 10px;
+            width: 100px;
+        }
+    }
+
+    .navigation {
+        margin-top: 50px;
+    }
+
+    .next {
+        margin-left: 10px;
+    }
+
+    .back {
+        margin-right: 10px;
+    }
+}
+
+.edit-in {
+    animation: in 600ms;
+    animation-fill-mode: forwards;
+}
+
+.edit-out {
+    animation: out 600ms;
+    animation-fill-mode: forwards;
+}

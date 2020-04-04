@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@keyframes in {
+    0% {
+        opacity: 0;
+        // transform: translateX(100px);
+        transform: scale(0);
+    }
+
+    100% {
+        opacity: 1;
+        // transform: translateX(0px);
+        transform: scale(1);
+    }
+}
+
+@keyframes out {
+    0% {
+        opacity: 1;
+        // transform: translateX(0px);
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        // transform: translateX(100px);
+        transform: scale(0);
+    }
+}

@@ -1,0 +1,60 @@
+.edit {
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+  width: 100%;
+}
+.edit .name {
+  font-size: 4em;
+  font-weight: 200;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.edit .logo {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.edit .duration {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.edit .duration .duration-name {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.edit .resolution {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.edit .resolution .resolution-name {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.edit .resolution .resolution-select {
+  margin-top: 10px;
+  width: 100px;
+}
+.edit .navigation {
+  margin-top: 50px;
+}
+.edit .next {
+  margin-left: 10px;
+}
+.edit .back {
+  margin-right: 10px;
+}
+.edit-in {
+  animation: in 600ms;
+  animation-fill-mode: forwards;
+}
+.edit-out {
+  animation: out 600ms;
+  animation-fill-mode: forwards;
+}
