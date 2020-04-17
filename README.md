@@ -37,6 +37,16 @@ npm start
 
 the first one starts the web server on port 7000, and the second one runs react application on port 3000.
 
+## How to use this application
+
+To use this application you have to type
+
+```
+http://localhost:3000
+```
+
+You'll be redirected to home page, where you might start converting your videos.
+
 ## How does it look like?
 
 ![](https://github.com/maticoder/video-to-gif/blob/master/how.gif)
